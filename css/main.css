@@ -27,3 +27,35 @@ header {
   align-items: center;
   padding: .75em 1em .6em;
 }
+
+nav ul {
+  list-style-type: none;
+  padding: 0 1rem;
+  display: flex;
+}
+
+nav ul li {
+  padding: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+nav a:hover {
+  color: black;
+}
+
+header img {
+  order: -1;
+}
+
+header h1 {
+  margin: .5rem;
+}
+
+header p {
+  font-style: italic;
+  margin: auto;
+}
