@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 header img {
-  order: 1;
+  order: -1;
 }
 
 header h1 {
