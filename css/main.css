@@ -7,3 +7,23 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  width: 2rem;
+}
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+  max-width: 80em;
+  align-items: center;
+  padding: .75em 1em .6em;
+}
